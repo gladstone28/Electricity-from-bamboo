@@ -1,0 +1,21 @@
+/* Enhancements specific to step4.html */
+h2 {
+    color: #4a4a4a; /* Dark grey for subsection titles */
+    margin-top: 20px;
+}
+
+/* Styling for the download link, making it more noticeable */
+a[download] {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a[download]:hover {
+    background-color: #0056b3; /* A darker shade of blue for hover effect */
+}
