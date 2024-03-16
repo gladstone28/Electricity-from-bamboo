@@ -7,8 +7,9 @@ body {
     min-height: 100vh;
 }
 
-header, footer {
-    background-color: #333;
+header,
+footer {
+    background-color: #adc99f;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -37,7 +38,7 @@ main {
 }
 
 .card:hover {
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
